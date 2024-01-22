@@ -1,6 +1,6 @@
 ! Title: Hide Bilibili Content Farms
 ! Description: Hide all content farm accounts on Bilibili
-! Last modified: 2024-01-22 10:20
+! Last modified: 2024-01-22 10:23
 ! Expires: 1 hours (update frequency)
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(赵八仙))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(赵八仙))
@@ -90,3 +90,5 @@ www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upnam
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(人间放映厅))
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(爆笑幺幺零))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(爆笑幺幺零))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(听泉日记-鉴宝))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(听泉日记-鉴宝))
