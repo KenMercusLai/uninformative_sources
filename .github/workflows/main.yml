@@ -16,9 +16,13 @@ jobs:
       run: |
         # Add commands to generate the new text file here
         echo "Generating the text file..."
+        while IFS= read -r line; do
+          modified_line="Prefix Text: $line Suffix Text"
+          echo "$modified_line" >> "output.txt"
+        done < "bilibili_content_farm.txt"        
+        echo "Text generation complete."
         echo "Hello from GitHub Actions" > output.txt
-        mkdir DS-IT   # Create the folder DS-IT if it's not existed
-        mv output.txt DS-IT/output.txt # Move the generated file to DS-IT folder.
+        mv output.txt dist/bilibili_content_farm.txt # Move the generated file to DS-IT folder.
 
     - name: Push changes
       uses: ad-m/github-push-action@master
