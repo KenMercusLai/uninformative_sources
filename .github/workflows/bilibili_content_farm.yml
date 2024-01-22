@@ -17,7 +17,7 @@ jobs:
         # Add commands to generate the new text file here
         echo "Generating the text file..."
         rm "dist/bilibili_content_farm.txt"
-        echo "$! Title: Hide Bilibili Content Farms" >> "dist/bilibili_content_farm.txt"
+        echo "! Title: Hide Bilibili Content Farms" >> "dist/bilibili_content_farm.txt"
         while IFS= read -r line; do
           modified_line="www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text($line))"
           echo "$modified_line" >> "dist/bilibili_content_farm.txt"
