@@ -21,7 +21,7 @@ jobs:
         echo '! Description: Hide all content farm accounts on Bilibili' >> "dist/bilibili_content_farm.txt"
         current_datetime=$(date +"%Y-%m-%d %H:%M")
         echo "! Last modified: $current_datetime" >> "dist/bilibili_content_farm.txt"
-        echo '! Expires: 2 weeks (update frequency)' >> "dist/bilibili_content_farm.txt"
+        echo '! Expires: 1 hours (update frequency)' >> "dist/bilibili_content_farm.txt"
         while IFS= read -r line; do
           modified_line="www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text($line))"
           echo "$modified_line" >> "dist/bilibili_content_farm.txt"
