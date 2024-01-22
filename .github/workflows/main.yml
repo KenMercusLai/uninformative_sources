@@ -1,0 +1,27 @@
+name: Text file generator
+
+on: 
+  push:
+    branches: 
+      - master # or the branch where you want these actions to be performed      
+
+jobs:
+  generate-text-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Generate text file
+      run: |
+        # Add commands to generate the new text file here
+        echo "Generating the text file..."
+        echo "Hello from GitHub Actions" > output.txt
+        mkdir DS-IT   # Create the folder DS-IT if it's not existed
+        mv output.txt DS-IT/output.txt # Move the generated file to DS-IT folder.
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
