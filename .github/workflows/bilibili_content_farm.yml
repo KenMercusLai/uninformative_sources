@@ -26,7 +26,7 @@ jobs:
       run: |
         git config --local user.email "ken.mercus.lai@gmail.com"
         git config --local user.name "github-actions[bot]"
-        git commit -a -m "Bilibili content farm list"
+        git commit -A -m "Bilibili content farm list"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
