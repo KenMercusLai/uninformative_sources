@@ -18,11 +18,15 @@ jobs:
         echo "Generating the text file..."
         while IFS= read -r line; do
           modified_line="Prefix Text: $line Suffix Text"
-          echo "$modified_line" >> "output.txt"
+          echo "$modified_line" >> "dist/bilibili_content_farm.txt"
         done < "bilibili_content_farm.txt"        
         echo "Text generation complete."
-        echo "Hello from GitHub Actions" > output.txt
-        mv output.txt dist/bilibili_content_farm.txt # Move the generated file to DS-IT folder.
+        
+    - name: Commit files
+      run: |
+        git config --local user.email "ken.mercus.lai@gmail.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -a -m "Bilibili content farm list"
 
     - name: Push changes
       uses: ad-m/github-push-action@master
