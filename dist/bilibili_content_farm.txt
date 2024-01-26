@@ -1,6 +1,6 @@
 ! Title: Hide Bilibili Content Farms
 ! Description: Hide all content farm accounts on Bilibili
-! Last modified: 2024-01-26 10:16
+! Last modified: 2024-01-26 10:17
 ! Expires: 1 hours (update frequency)
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(赵八仙))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(赵八仙))
@@ -206,3 +206,7 @@ www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upnam
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(报姐唠唠))
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(老片复盘半只猫))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(老片复盘半只猫))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(赛雷三分钟))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(赛雷三分钟))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(謎案追蹤))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(謎案追蹤))
