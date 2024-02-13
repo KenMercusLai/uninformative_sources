@@ -1,6 +1,6 @@
 ! Title: Hide Bilibili Content Farms
 ! Description: Hide all content farm accounts on Bilibili
-! Last modified: 2024-02-13 02:03
+! Last modified: 2024-02-13 02:07
 ! Expires: 1 hours (update frequency)
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(6号后腰))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(6号后腰))
@@ -434,3 +434,19 @@ www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upnam
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(小胖快乐屋))
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(二狗App-单身青年故事))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(二狗App-单身青年故事))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(饲养员小谢))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(饲养员小谢))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(硬核Python教程))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(硬核Python教程))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(小薪哥聊体制))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(小薪哥聊体制))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(光暗杂学馆))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(光暗杂学馆))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(地球君V))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(地球君V))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(Gatixth))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(Gatixth))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(怪奇肖恩))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(怪奇肖恩))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(资本带鳄韭菲特))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(资本带鳄韭菲特))
