@@ -1,6 +1,6 @@
 ! Title: Hide Bilibili Content Farms
 ! Description: Hide all content farm accounts on Bilibili
-! Last modified: 2024-02-15 12:45
+! Last modified: 2024-02-17 07:01
 ! Expires: 1 hours (update frequency)
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(6号后腰))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(6号后腰))
@@ -454,3 +454,5 @@ www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upnam
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(谭井同学))
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(李大可爱玩))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(李大可爱玩))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(一目十影))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(一目十影))
