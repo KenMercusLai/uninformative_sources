@@ -1,6 +1,6 @@
 ! Title: Hide Bilibili Content Farms
 ! Description: Hide all content farm accounts on Bilibili
-! Last modified: 2024-02-22 08:51
+! Last modified: 2024-02-22 08:54
 ! Expires: 1 hours (update frequency)
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(6号后腰))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(6号后腰))
@@ -696,3 +696,25 @@ www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upnam
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(世界美食official))
 www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(北海先生原创))
 www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(北海先生原创))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(Sunny水水水))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(Sunny水水水))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(迎风立调侃))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(迎风立调侃))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(电子宠物物流中心))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(电子宠物物流中心))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(小驴-探案))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(小驴-探案))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(美国人有话说))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(美国人有话说))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(王楷模))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(王楷模))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(我是大KK呀))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(我是大KK呀))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(大澜的文学午安))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(大澜的文学午安))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(边开边聊))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(边开边聊))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(六一的轻松世界))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(六一的轻松世界))
+www.bilibili.com##.video-page-card-small:has(div.card-box > div.info > div.upname > a > .name:has-text(迪布的护腿板))
+www.bilibili.com##.is-rcmd.bili-video-card > .__scale-wrap.bili-video-card__wrap:has(div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > div.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:has-text(迪布的护腿板))
